@@ -1,0 +1,90 @@
+.provincias{
+    background-color: #dcfffc9f;
+    margin-top: 150px;
+
+    h3{
+        text-align: center;
+        padding: 40px;
+        margin-bottom: 30px;
+        margin-top: 40px;
+        color: #1f2222;
+        font-size: 25px;
+    }
+
+    .grid-inicio{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            "caja1 caja2"
+            "caja3 caja4";
+
+        
+            .caja1{
+                grid-area: caja1;
+                background-image: url("../img-inicio/Purmamarca\ Inicio.jpg");
+                width: 600px;
+                height: 300px;
+                margin: 20px auto;
+                border: black solid 4px;
+
+                .texto1{
+                    text-align: center;
+                    font-size: 20px;
+                }
+            }
+            
+            .caja2{
+                grid-area: caja2;
+                background-image: url("../img-inicio/Cataratas.jpg");
+                padding-left: 50px;
+                width: 600px;
+                height: 300px;
+                margin: 20px auto;
+                border: black solid 4px;
+
+                .texto1{
+                    text-align: center;
+                    font-size: 20px;
+                }
+            }
+            
+            .caja3{
+                grid-area: caja3;
+                background-image: url("../img-inicio/Bariloche\ Inicio.jpg");
+                width: 600px;
+                height: 300px;
+                margin: 20px auto;
+                border: black solid 4px;
+
+                .texto1{
+                    text-align: center;
+                    font-size: 20px;
+                }
+               
+            }
+            
+            .caja4{
+                grid-area: caja4;
+                background-image: url("../img-inicio/Villa\ Carlos\ Paz\ Inicio.jpg");
+                width: 600px;
+                height: 300px;
+                margin: 20px auto;
+                border: black solid 4px;
+
+                .texto1{
+                    text-align: center;
+                    font-size: 20px;
+                }
+
+            }
+    }
+
+
+}
+
+
+
+
+
+    

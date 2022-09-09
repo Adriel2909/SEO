@@ -1,0 +1,34 @@
+.contenedor-video {
+    display: flex;
+    margin-top: 200px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color:  #dcfffc9f;
+
+    .video{
+        width: 50%;
+
+        .video-inicio{
+            width: 100%;
+            height: 300px
+        }
+    }
+
+    .texto-video{
+        width: 50%;
+        padding-left: 50px;
+
+        .texto-visitar{
+            padding-top: 50px;
+            margin-bottom: 50px;
+            color: $celeste;
+            font-size: 25px;
+            text-align: center;
+        }
+
+        .texto-chivo{
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,189 @@
+.contenedor {
+  background-color: #338d86;
+  display: flex;
+  justify-content: space-between;
+}
+.contenedor .contenedor-nombre {
+  display: flex;
+  text-align: center center;
+  padding: 20px;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+.contenedor .contenedor-nombre .nombre {
+  padding: 20px;
+  color: white;
+  font-size: 35px;
+  text-align: left;
+}
+.contenedor .navegador {
+  display: flex;
+  margin-top: 23px;
+  margin-right: 10px;
+  font-size: 18px;
+  padding: 40px;
+  gap: 8px;
+  letter-spacing: 0.5px;
+}
+.contenedor .navegador .item a {
+  text-decoration: none;
+  color: white;
+}
+.contenedor .navegador .item {
+  list-style: none;
+  color: white;
+}
+
+.item-index:hover {
+  background-color: rgb(103, 35, 35);
+  font-size: 25px;
+}
+
+.item-jujuy:hover {
+  background-color: rgb(43, 157, 79);
+  font-size: 25px;
+}
+
+.item-mendoza:hover {
+  background-color: rgb(53, 93, 64);
+  font-size: 25px;
+}
+
+.item-neuquen:hover {
+  background-color: rgb(76, 219, 102);
+  font-size: 25px;
+}
+
+.item-cordoba:hover {
+  background-color: rgb(16, 123, 44);
+  font-size: 25px;
+}
+
+.item-index:hover {
+  color: rgb(16, 123, 44);
+}
+
+.item-jujuy:hover {
+  color: rgb(103, 35, 35);
+}
+
+.item-mendoza:hover {
+  color: rgb(103, 35, 35);
+}
+
+.item-neuquen:hover {
+  color: rgb(16, 123, 44) !important;
+}
+
+.item-cordoba:hover {
+  color: rgb(103, 35, 35);
+}
+
+.contenedor-video {
+  display: flex;
+  margin-top: 200px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: rgba(220, 255, 252, 0.6235294118);
+}
+.contenedor-video .video {
+  width: 50%;
+}
+.contenedor-video .video .video-inicio {
+  width: 100%;
+  height: 300px;
+}
+.contenedor-video .texto-video {
+  width: 50%;
+  padding-left: 50px;
+}
+.contenedor-video .texto-video .texto-visitar {
+  padding-top: 50px;
+  margin-bottom: 50px;
+  color: #338d86;
+  font-size: 25px;
+  text-align: center;
+}
+.contenedor-video .texto-video .texto-chivo {
+  font-size: 20px;
+  text-align: center;
+}
+
+.provincias {
+  background-color: rgba(220, 255, 252, 0.6235294118);
+  margin-top: 150px;
+}
+.provincias h3 {
+  text-align: center;
+  padding: 40px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  color: #1f2222;
+  font-size: 25px;
+}
+.provincias .grid-inicio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "caja1 caja2" "caja3 caja4";
+}
+.provincias .grid-inicio .caja1 {
+  grid-area: caja1;
+  background-image: url("../img-inicio/Purmamarca Inicio.jpg");
+  width: 600px;
+  height: 300px;
+  margin: 20px auto;
+  border: black solid 4px;
+}
+.provincias .grid-inicio .caja1 .texto1 {
+  text-align: center;
+  font-size: 20px;
+}
+.provincias .grid-inicio .caja2 {
+  grid-area: caja2;
+  background-image: url("../img-inicio/Cataratas.jpg");
+  padding-left: 50px;
+  width: 600px;
+  height: 300px;
+  margin: 20px auto;
+  border: black solid 4px;
+}
+.provincias .grid-inicio .caja2 .texto1 {
+  text-align: center;
+  font-size: 20px;
+}
+.provincias .grid-inicio .caja3 {
+  grid-area: caja3;
+  background-image: url("../img-inicio/Bariloche Inicio.jpg");
+  width: 600px;
+  height: 300px;
+  margin: 20px auto;
+  border: black solid 4px;
+}
+.provincias .grid-inicio .caja3 .texto1 {
+  text-align: center;
+  font-size: 20px;
+}
+.provincias .grid-inicio .caja4 {
+  grid-area: caja4;
+  background-image: url("../img-inicio/Villa Carlos Paz Inicio.jpg");
+  width: 600px;
+  height: 300px;
+  margin: 20px auto;
+  border: black solid 4px;
+}
+.provincias .grid-inicio .caja4 .texto1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.footer {
+  background-color: #338d86;
+  margin-top: 50px;
+}
+.footer .copyright {
+  padding-top: 60px;
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 17px;
+}/*# sourceMappingURL=estilos.css.map */
